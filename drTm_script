@@ -1,0 +1,14 @@
+#!/bin/bash
+#DrTM Script for CLouldLab
+
+sudo apt-get update
+sudo apt-get install libibverbs-dev
+sudo apt-get install libzmq3-dev
+cd /usr/include
+sudo git clone https://github.com/zeromq/cppzmq.git 
+sudo cp cppzmq/zmq.hpp /usr/include
+cd 
+sudo git clone https://github.com/SJTU-IPADS/drtm.git
+ifconfig
+cd drtm/microbench/rdma/
+#Modify drtm/microbench/rdma/network_node.h to use correct ip addresses
