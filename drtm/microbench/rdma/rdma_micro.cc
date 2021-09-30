@@ -168,9 +168,9 @@ int main(int argc,char** argv){
   // rdma_size = 1024*4;  //4K
   // //rdma_size = rdma_size*20; //20G
   // uint64_t total_size=rdma_size+1024*4;
-
+  fprintf(stdout, "made it here");
   Network_Node *node = new Network_Node(total_partition,current_partition,THREAD_NUM);
-
+  fprintf(stdout, "how about here");
 
   fprintf(stdout,"size %ld ... ",total_size);
   char *buffer= (char*) malloc(total_size);
