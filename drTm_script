@@ -4,7 +4,7 @@
 yes | sudo apt-get update
 yes | sudo apt-get install libibverbs-dev
 yes | sudo apt install util-linux
-yes | sudo aptyes-get install libzmq3-dev
+yes | sudo apt-get install libzmq3-dev
 sudo apt-get install -y librdmacm-dev
 sudo apt-get install -y libpci-dev
 sudo apt-get install -y libibumad-dev
