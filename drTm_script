@@ -12,7 +12,8 @@ cd /usr/include
 yes | sudo git clone https://github.com/zeromq/cppzmq.git 
 sudo cp cppzmq/zmq.hpp /usr/include
 cd 
-yes | sudo git clone https://github.com/SJTU-IPADS/drtm.git
+#yes | sudo git clone https://github.com/SJTU-IPADS/drtm.git
+cd drtm/
 ifconfig
-cd drtm/microbench/rdma/
+#cd drtm/microbench/rdma/
 #Modify drtm/microbench/rdma/network_node.h to use correct ip addresses
