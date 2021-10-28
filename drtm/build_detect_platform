@@ -33,8 +33,8 @@ if test -z "$OUTPUT" || test -z "$PREFIX"; then
 fi
 
 # Delete existing output, if it exists
-rm -f $OUTPUT
-touch $OUTPUT
+sudo rm -f $OUTPUT
+sudo touch $OUTPUT
 
 if test -z "$CC"; then
     CC=cc
