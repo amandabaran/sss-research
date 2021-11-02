@@ -8,8 +8,8 @@ yes | sudo apt install util-linux
 yes | sudo apt-get install libzmq3-dev
 yes | sudo git clone https://github.com/SJTU-IPADS/SSMalloc.git
 cd SSMalloc/
-make 
-make install 
+sudo make 
+sudo make install 
 cd 
 yes | sudo apt-get install ptpd
 sudo service start ptpd
