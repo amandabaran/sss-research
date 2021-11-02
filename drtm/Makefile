@@ -16,7 +16,7 @@ $(shell CC=$(CC) CXX=$(CXX) TARGET_OS=$(TARGET_OS) CHOP=$(CHOP)\
 include build_config.mk
 
 CFLAGS += -I. -I./include $(PLATFORM_CCFLAGS) $(OPT)
-CXXFLAGS += -I. -I./include $(PLATFORM_CXXFLAGS) $(OPT)  -std=c++0x
+CXXFLAGS += -I. -I./include $(PLATFORM_CXXFLAGS) $(OPT)  -std=c++0x -fpermissive
 
 LDFLAGS += $(PLATFORM_LDFLAGS)
 LIBS += $(PLATFORM_LIBS)
