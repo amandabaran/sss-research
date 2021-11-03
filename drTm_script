@@ -16,6 +16,7 @@ sudo service start ptpd
 sudo apt-get install -y librdmacm-dev
 sudo apt-get install -y libpci-dev
 sudo apt-get install -y libibumad-dev
+sudo apt-get install -y libboost-system-dev
 cd /usr/include
 yes | sudo git clone https://github.com/zeromq/cppzmq.git 
 sudo cp cppzmq/zmq.hpp /usr/include
