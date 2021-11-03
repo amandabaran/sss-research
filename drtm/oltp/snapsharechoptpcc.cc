@@ -57,6 +57,7 @@
 #include <algorithm>
 #include <set>
 #include <vector>
+#include <math.h> 
 #include "time.h"
 
 #include "bench.h"
